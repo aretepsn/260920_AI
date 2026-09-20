@@ -17,6 +17,7 @@
     --c1: #c15f3c; --c1-soft: #f7e9e3;
     --c2: #1f7a4d; --c2-soft: #e3f3ea;
     --c3: #2463b8; --c3-soft: #e4eefb;
+    --c4: #7a4fc1; --c4-soft: #efe8fa;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -30,6 +31,7 @@
       --c1: #e0896a; --c1-soft: #3a2820;
       --c2: #5fcf95; --c2-soft: #16301f;
       --c3: #7aaef0; --c3-soft: #1a2a40;
+      --c4: #b996f0; --c4-soft: #2a2140;
     }
   }
   * { box-sizing: border-box; }
@@ -69,6 +71,7 @@
   .item:nth-child(1) { --c: var(--c1); --soft: var(--c1-soft); }
   .item:nth-child(2) { --c: var(--c2); --soft: var(--c2-soft); }
   .item:nth-child(3) { --c: var(--c3); --soft: var(--c3-soft); }
+  .item:nth-child(4) { --c: var(--c4); --soft: var(--c4-soft); }
 
   .main {
     flex: 1 1 auto; min-width: 0;
@@ -144,58 +147,75 @@
 
   <ul class="list">
     <li class="item">
-      <a class="main" href="클로드_프로젝트_폴더구조.html">
+      <a class="main" href="01_클로드_프로젝트_폴더구조.html">
         <span class="num">1</span>
         <span class="text">
           <span class="title">한 프로젝트 폴더 안의 Claude 구조</span>
           <span class="desc">프로젝트 폴더에 두는 Claude 관련 파일·폴더를 트리로 보고, 항목별 기능과 예시를 확인</span>
-          <span class="file">클로드_프로젝트_폴더구조.html</span>
+          <span class="file">01_클로드_프로젝트_폴더구조.html</span>
         </span>
         <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
       </a>
       <div class="side">
-        <a class="prompt" href="클로드_프로젝트_폴더구조_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
+        <a class="prompt" href="01_클로드_프로젝트_폴더구조_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v11.5A1.5 1.5 0 0 1 17.5 21h-10A1.5 1.5 0 0 1 6 19.5v-15A1.5 1.5 0 0 1 7.5 3z"/><path d="M14 3v5h5"/></svg>프롬프트
         </a>
       </div>
     </li>
 
     <li class="item">
-      <a class="main" href="개발방법론_SDD_TDD_BDD_DDD.html">
+      <a class="main" href="02_개발방법론_SDD_TDD_BDD_DDD.html">
         <span class="num">2</span>
         <span class="text">
           <span class="title">개발 방법론 정리</span>
           <span class="desc">SDD · TDD · BDD · DDD 네 가지 개발 방식의 개념 비교</span>
-          <span class="file">개발방법론_SDD_TDD_BDD_DDD.html</span>
+          <span class="file">02_개발방법론_SDD_TDD_BDD_DDD.html</span>
         </span>
         <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
       </a>
       <div class="side">
-        <a class="prompt" href="개발방법론_SDD_TDD_BDD_DDD_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
+        <a class="prompt" href="02_개발방법론_SDD_TDD_BDD_DDD_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v11.5A1.5 1.5 0 0 1 17.5 21h-10A1.5 1.5 0 0 1 6 19.5v-15A1.5 1.5 0 0 1 7.5 3z"/><path d="M14 3v5h5"/></svg>프롬프트
         </a>
       </div>
     </li>
 
     <li class="item">
-      <a class="main" href="AI활용_툴.html">
+      <a class="main" href="03_AI활용_툴.html">
         <span class="num">3</span>
         <span class="text">
           <span class="title">AI 활용 툴</span>
           <span class="desc">Aside, ORCA 등 업무에 활용할 AI 툴 소개</span>
-          <span class="file">AI활용_툴.html</span>
+          <span class="file">03_AI활용_툴.html</span>
         </span>
         <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
       </a>
       <div class="side">
-        <a class="prompt" href="AI활용_툴_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
+        <a class="prompt" href="03_AI활용_툴_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v11.5A1.5 1.5 0 0 1 17.5 21h-10A1.5 1.5 0 0 1 6 19.5v-15A1.5 1.5 0 0 1 7.5 3z"/><path d="M14 3v5h5"/></svg>프롬프트
+        </a>
+      </div>
+    </li>
+
+    <li class="item">
+      <a class="main" href="04_AI_클로드_GPT_콜라보.html">
+        <span class="num">4</span>
+        <span class="text">
+          <span class="title">AI 클로드 × GPT 콜라보</span>
+          <span class="desc">Claude가 만들고 GPT가 검토하는 반복 루프를 API 과금 없이 구독 계정으로 돌리는 방법과 GitHub 도구 모음</span>
+          <span class="file">04_AI_클로드_GPT_콜라보.html</span>
+        </span>
+        <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+      </a>
+      <div class="side">
+        <a class="prompt" href="04_AI_클로드_GPT_콜라보_프롬프트.md" title="이 페이지를 재현하는 프롬프트">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v11.5A1.5 1.5 0 0 1 17.5 21h-10A1.5 1.5 0 0 1 6 19.5v-15A1.5 1.5 0 0 1 7.5 3z"/><path d="M14 3v5h5"/></svg>프롬프트
         </a>
       </div>
     </li>
   </ul>
 
-  <footer>페이지 3개 · 각 페이지 옆 "프롬프트"는 해당 페이지를 다시 만들 때 쓰는 지시문(.md)이에요.</footer>
+  <footer>페이지 4개 · 각 페이지 옆 "프롬프트"는 해당 페이지를 다시 만들 때 쓰는 지시문(.md)이에요.</footer>
 </main>
 </body>
 </html>

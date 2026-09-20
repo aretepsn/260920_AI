@@ -1,4 +1,4 @@
-# 프롬프트 — 개발방법론_SDD_TDD_BDD_DDD.html 재현용
+# 프롬프트 — 02_개발방법론_SDD_TDD_BDD_DDD.html 재현용
 
 다른 세션에 아래 [프롬프트 본문]을 그대로 붙여넣으면 동일한 산출물을 얻을 수 있다.
 
@@ -36,7 +36,7 @@ DDD (Domain-Driven Development, 도메인 주도 개발)
 - 최대 폭 1200px, 860px 미만에서는 1열로 전환 [자동판단]
 - 라이트/다크 모드 지원, 맑은 고딕 우선, 외부 라이브러리·폰트 없는 단일 HTML [자동판단]
 - 파일 형식: html
-- 파일명: 개발방법론_SDD_TDD_BDD_DDD.html [자동판단]
+- 파일명: 02_개발방법론_SDD_TDD_BDD_DDD.html [자동판단]
 - 저장 위치: 이 프롬프트 파일과 같은 폴더 (작업폴더 루트)
 ```
 
@@ -46,5 +46,5 @@ DDD (Domain-Driven Development, 도메인 주도 개발)
 ## 재현 시 참고사항
 
 - 원 요청일: 2026-09-17 / 요청자: 김경탁
-- 생성 파일: `개발방법론_SDD_TDD_BDD_DDD.html`, `개발방법론_SDD_TDD_BDD_DDD_프롬프트.md`
+- 생성 파일: `02_개발방법론_SDD_TDD_BDD_DDD.html`, `02_개발방법론_SDD_TDD_BDD_DDD_프롬프트.md`
 - DDD는 일반적으로 "Domain-Driven Design"으로 불리지만, 요청 문구대로 "Domain-Driven Development"로 표기함.
